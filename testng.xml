@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="reports_resources.ExtentReporterNG"/>
+</listeners>
+  <test thread-count="5" name="AgileTestSuite">
+    <classes>
+    	<class name="testcases.gameStarted"/>
+      	<class name="testcases.choosePrd"/>
+      	<class name="testcases.addStories"/>
+      	<class name="testcases.actionEndPoint"/>
+      	<class name="testcases.leaderboard"/>
+      <class name="testcases.mailUserReport"/>
+      
+    </classes>
+  </test> <!-- AgileTestSuite -->
+</suite> <!-- Suite -->

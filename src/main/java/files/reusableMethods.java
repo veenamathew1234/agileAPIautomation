@@ -19,7 +19,7 @@ public class reusableMethods {
 	
 	public static String getCookieData(){
 		
-		String cookiedata="s%3AofLEsyS-v8o4xWke2d7eKEwvPmNGf8tj.g860vcDB0a7b6HEq4i8C%2FwkpkXNAbggZTq9z4W1aMW8";
+		String cookiedata="agilesim_stg=s%3AzQVy5jv3zki7daUmjrwyD5wnp5KtOT7g.DsJo%2FHhfk5OGKrEos3NXmG%2F7szAPQ24953CJiC5f%2Bqw";
 		return cookiedata;
 		
 	}

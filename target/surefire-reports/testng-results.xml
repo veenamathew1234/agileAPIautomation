@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15566" started-at="2019-11-27T10:49:32Z" finished-at="2019-11-27T10:49:47Z">
+    <groups>
+    </groups>
+    <test name="AgileTestSuite" duration-ms="15566" started-at="2019-11-27T10:49:32Z" finished-at="2019-11-27T10:49:47Z">
+      <class name="testcases.gameStarted">
+        <test-method status="PASS" signature="post_gameStarted()[pri:0, instance:testcases.gameStarted@5cc7c2a6]" name="post_gameStarted" duration-ms="3262" started-at="2019-11-27T10:49:32Z" finished-at="2019-11-27T10:49:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_gameStarted -->
+      </class> <!-- testcases.gameStarted -->
+      <class name="testcases.actionEndPoint">
+        <test-method status="PASS" signature="post_actionEndPoint()[pri:0, instance:testcases.actionEndPoint@32e6e9c3]" name="post_actionEndPoint" duration-ms="2243" started-at="2019-11-27T10:49:36Z" finished-at="2019-11-27T10:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_actionEndPoint -->
+      </class> <!-- testcases.actionEndPoint -->
+      <class name="testcases.mailUserReport">
+        <test-method status="PASS" signature="post_mailUserReport()[pri:0, instance:testcases.mailUserReport@6574b225]" name="post_mailUserReport" duration-ms="8323" started-at="2019-11-27T10:49:39Z" finished-at="2019-11-27T10:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_mailUserReport -->
+      </class> <!-- testcases.mailUserReport -->
+      <class name="testcases.leaderboard">
+        <test-method status="PASS" signature="get_leaderboard()[pri:0, instance:testcases.leaderboard@5056dfcb]" name="get_leaderboard" duration-ms="453" started-at="2019-11-27T10:49:39Z" finished-at="2019-11-27T10:49:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_leaderboard -->
+      </class> <!-- testcases.leaderboard -->
+      <class name="testcases.choosePrd">
+        <test-method status="PASS" signature="post_choosePrd()[pri:0, instance:testcases.choosePrd@b97c004]" name="post_choosePrd" duration-ms="635" started-at="2019-11-27T10:49:35Z" finished-at="2019-11-27T10:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_choosePrd -->
+      </class> <!-- testcases.choosePrd -->
+      <class name="testcases.addStories">
+        <test-method status="PASS" signature="post_addStories()[pri:0, instance:testcases.addStories@4590c9c3]" name="post_addStories" duration-ms="620" started-at="2019-11-27T10:49:36Z" finished-at="2019-11-27T10:49:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_addStories -->
+      </class> <!-- testcases.addStories -->
+    </test> <!-- AgileTestSuite -->
+  </suite> <!-- Suite -->
+</testng-results>
