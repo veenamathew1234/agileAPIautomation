@@ -12,8 +12,8 @@ public class gameStarted {
 		
 		RestAssured.baseURI=reusableMethods.getDataBeforeTest();
 	
-		given().
-			header("Cookie",reusableMethods.getCookieData()).
+		given();
+			//head("Cookie",reusableMethods.getCookieData());
 			
 			
 		
