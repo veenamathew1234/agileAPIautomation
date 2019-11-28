@@ -1,0 +1,13 @@
+testcases/startSprint.class
+testcases/setPriorities.class
+testcases/addStories.class
+testcases/actionEndPoint.class
+testcases/gameStarted.class
+testcases/choosePrd.class
+testcases/userReportDownload.class
+testcases/game.class
+testcases/endSprint.class
+testcases/leaderboard.class
+testcases/mailUserReport.class
+testcases/gameCompleted.class
+testcases/updatePhase.class

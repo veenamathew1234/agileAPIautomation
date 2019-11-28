@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,26 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">13 methods, 2 failed,   11 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.userReportDownload" hash-for-method="getUserReportDownload">getUserReportDownload</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.mailUserReport" hash-for-method="post_mailUserReport">post_mailUserReport</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">13 methods,   13 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.game" hash-for-method="getGame">getGame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.userReportDownload" hash-for-method="getUserReportDownload">getUserReportDownload</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -171,6 +157,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.mailUserReport" hash-for-method="post_mailUserReport">post_mailUserReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.updatePhase" hash-for-method="putUpdatePhase">putUpdatePhase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -186,88 +177,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.mailUserReport</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="post_mailUserReport">
-                  </a> <!-- post_mailUserReport -->
-                  <span class="method-name">post_mailUserReport</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;500&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:237)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at testcases.mailUserReport.post_mailUserReport(mailUserReport.java:28)
-... Removed 43 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testcases.userReportDownload</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getUserReportDownload">
-                  </a> <!-- getUserReportDownload -->
-                  <span class="method-name">getUserReportDownload</span>
-                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
-Expected status code &lt;200&gt; but was &lt;500&gt;.
-
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:249)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
-	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
-	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:190)
-	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:58)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:168)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:126)
-	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
-	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:134)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1217)
-	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
-	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
-	at testcases.userReportDownload.getUserReportDownload(userReportDownload.java:32)
-... Removed 43 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -301,36 +210,6 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.game</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getGame">
-                  </a> <!-- getGame -->
-                  <span class="method-name">getGame</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.updatePhase</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="putUpdatePhase">
-                  </a> <!-- putUpdatePhase -->
-                  <span class="method-name">putUpdatePhase</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">testcases.endSprint</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -354,21 +233,6 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
                   <a name="postStartSprint">
                   </a> <!-- postStartSprint -->
                   <span class="method-name">postStartSprint</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.actionEndPoint</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="post_actionEndPoint">
-                  </a> <!-- post_actionEndPoint -->
-                  <span class="method-name">post_actionEndPoint</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -421,6 +285,66 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testcases.userReportDownload</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUserReportDownload">
+                  </a> <!-- getUserReportDownload -->
+                  <span class="method-name">getUserReportDownload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.game</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getGame">
+                  </a> <!-- getGame -->
+                  <span class="method-name">getGame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.updatePhase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="putUpdatePhase">
+                  </a> <!-- putUpdatePhase -->
+                  <span class="method-name">putUpdatePhase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.actionEndPoint</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_actionEndPoint">
+                  </a> <!-- post_actionEndPoint -->
+                  <span class="method-name">post_actionEndPoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testcases.setPriorities</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -433,10 +357,25 @@ Expected status code &lt;200&gt; but was &lt;500&gt;.
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.mailUserReport</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="post_mailUserReport">
+                  </a> <!-- post_mailUserReport -->
+                  <span class="method-name">post_mailUserReport</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/knolly/workspace/Agile_APIAutomation/testng.xml</span>
+            <span class="header-content">/home/knolly/eclipse-workspace/agile_apiautomation/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -502,62 +441,62 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(13);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getGame')
-data.setCell(0, 2, 'testcases.game')
-data.setCell(0, 3, 3684);
+data.setCell(0, 1, 'post_mailUserReport')
+data.setCell(0, 2, 'testcases.mailUserReport')
+data.setCell(0, 3, 7616);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'post_actionEndPoint')
-data.setCell(1, 2, 'testcases.actionEndPoint')
-data.setCell(1, 3, 1901);
+data.setCell(1, 1, 'getUserReportDownload')
+data.setCell(1, 2, 'testcases.userReportDownload')
+data.setCell(1, 3, 6960);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'postGameCompleted')
-data.setCell(2, 2, 'testcases.gameCompleted')
-data.setCell(2, 3, 916);
+data.setCell(2, 1, 'getGame')
+data.setCell(2, 2, 'testcases.game')
+data.setCell(2, 3, 2994);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'post_gameStarted')
-data.setCell(3, 2, 'testcases.gameStarted')
-data.setCell(3, 3, 632);
+data.setCell(3, 1, 'post_actionEndPoint')
+data.setCell(3, 2, 'testcases.actionEndPoint')
+data.setCell(3, 3, 2103);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'postEndSprint')
-data.setCell(4, 2, 'testcases.endSprint')
-data.setCell(4, 3, 602);
+data.setCell(4, 1, 'postGameCompleted')
+data.setCell(4, 2, 'testcases.gameCompleted')
+data.setCell(4, 3, 804);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'putUpdatePhase')
-data.setCell(5, 2, 'testcases.updatePhase')
-data.setCell(5, 3, 509);
+data.setCell(5, 1, 'postEndSprint')
+data.setCell(5, 2, 'testcases.endSprint')
+data.setCell(5, 3, 669);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'post_choosePrd')
-data.setCell(6, 2, 'testcases.choosePrd')
-data.setCell(6, 3, 466);
+data.setCell(6, 1, 'postSetPriorities')
+data.setCell(6, 2, 'testcases.setPriorities')
+data.setCell(6, 3, 662);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'postSetPriorities')
-data.setCell(7, 2, 'testcases.setPriorities')
-data.setCell(7, 3, 459);
+data.setCell(7, 1, 'post_choosePrd')
+data.setCell(7, 2, 'testcases.choosePrd')
+data.setCell(7, 3, 645);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'postStartSprint')
-data.setCell(8, 2, 'testcases.startSprint')
-data.setCell(8, 3, 443);
+data.setCell(8, 1, 'post_gameStarted')
+data.setCell(8, 2, 'testcases.gameStarted')
+data.setCell(8, 3, 618);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'post_mailUserReport')
-data.setCell(9, 2, 'testcases.mailUserReport')
-data.setCell(9, 3, 443);
+data.setCell(9, 1, 'postStartSprint')
+data.setCell(9, 2, 'testcases.startSprint')
+data.setCell(9, 3, 487);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'post_addStories')
-data.setCell(10, 2, 'testcases.addStories')
-data.setCell(10, 3, 427);
+data.setCell(10, 1, 'putUpdatePhase')
+data.setCell(10, 2, 'testcases.updatePhase')
+data.setCell(10, 3, 464);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'getUserReportDownload')
-data.setCell(11, 2, 'testcases.userReportDownload')
-data.setCell(11, 3, 409);
+data.setCell(11, 1, 'post_addStories')
+data.setCell(11, 2, 'testcases.addStories')
+data.setCell(11, 3, 462);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'get_leaderboard')
 data.setCell(12, 2, 'testcases.leaderboard')
-data.setCell(12, 3, 404);
+data.setCell(12, 3, 457);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 24 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -593,88 +532,84 @@ return data;
               <div class="chronological-class-name">testcases.gameStarted</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">post_gameStarted</span>
-                <span class="method-start">3688 ms</span>
+                <span class="method-start">2997 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.updatePhase</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">putUpdatePhase</span>
-                <span class="method-start">4322 ms</span>
+                <span class="method-start">3617 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.choosePrd</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">post_choosePrd</span>
-                <span class="method-start">4832 ms</span>
+                <span class="method-start">4083 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.startSprint</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postStartSprint</span>
-                <span class="method-start">5299 ms</span>
+                <span class="method-start">4730 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.addStories</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">post_addStories</span>
-                <span class="method-start">5744 ms</span>
+                <span class="method-start">5220 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.setPriorities</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postSetPriorities</span>
-                <span class="method-start">6178 ms</span>
+                <span class="method-start">5684 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.actionEndPoint</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">post_actionEndPoint</span>
-                <span class="method-start">6639 ms</span>
+                <span class="method-start">6349 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.endSprint</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postEndSprint</span>
-                <span class="method-start">8541 ms</span>
+                <span class="method-start">8453 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.gameCompleted</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">postGameCompleted</span>
-                <span class="method-start">9144 ms</span>
+                <span class="method-start">9126 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.leaderboard</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">get_leaderboard</span>
-                <span class="method-start">10062 ms</span>
+                <span class="method-start">9933 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.mailUserReport</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">post_mailUserReport</span>
-                <span class="method-start">10467 ms</span>
+                <span class="method-start">10405 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.userReportDownload</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">getUserReportDownload</span>
-                <span class="method-start">10917 ms</span>
+                <span class="method-start">18023 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

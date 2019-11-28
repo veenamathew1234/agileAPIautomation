@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Properties;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-
-
+import static io.restassured.RestAssured.*; 
+import static io.restassured.matcher.RestAssuredMatchers.*;
 
 public class reusableMethods {
 	
@@ -27,7 +27,7 @@ public class reusableMethods {
 	
 	public static String getCookieData() throws MalformedURLException, IOException{
 		
-		String cookiedata="agilesim_stg=s%3AhqShcxUF9GqNfA-_v3T-CtWcfJY2oMxD.Zq3y9aPyMYLvPSPVwY4PPbwwOt6br4h9l4puj%2F%2B0MN4";
+		String cookiedata="agilesim_stg=s%3AJogR_PUjz2ROqrp7aCvPleAcK1uHb_Ec.3Nfabp61WbHFeJBTLhdnXGF06JSpUiGUJ6FqPGMm6J0";
 		return cookiedata;
 	
 //		
