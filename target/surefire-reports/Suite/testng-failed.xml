@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="reports_resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="AgileTestSuite(failed)">
+    <classes>
+      <class name="testcases.mailUserReport">
+        <methods>
+          <include name="post_mailUserReport"/>
+        </methods>
+      </class> <!-- testcases.mailUserReport -->
+      <class name="testcases.userReportDownload">
+        <methods>
+          <include name="getUserReportDownload"/>
+        </methods>
+      </class> <!-- testcases.userReportDownload -->
+    </classes>
+  </test> <!-- AgileTestSuite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

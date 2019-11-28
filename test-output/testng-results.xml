@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8347" started-at="2019-11-27T07:11:33Z" finished-at="2019-11-27T07:11:41Z">
+  <suite name="Default suite" duration-ms="4312" started-at="2019-11-28T09:34:26Z" finished-at="2019-11-28T09:34:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8347" started-at="2019-11-27T07:11:33Z" finished-at="2019-11-27T07:11:41Z">
-      <class name="testcases.game">
-        <test-method status="PASS" signature="getGame()[pri:0, instance:testcases.game@6a4f787b]" name="getGame" duration-ms="8322" started-at="2019-11-27T07:11:33Z" finished-at="2019-11-27T07:11:41Z">
+    <test name="Default test" duration-ms="4312" started-at="2019-11-28T09:34:26Z" finished-at="2019-11-28T09:34:30Z">
+      <class name="testcases.userReportDownload">
+        <test-method status="PASS" signature="getUserReportDownload()[pri:0, instance:testcases.userReportDownload@1a968a59]" name="getUserReportDownload" duration-ms="4264" started-at="2019-11-28T09:34:26Z" finished-at="2019-11-28T09:34:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getGame -->
-      </class> <!-- testcases.game -->
+        </test-method> <!-- getUserReportDownload -->
+      </class> <!-- testcases.userReportDownload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.startSprint">
+      <class name="testcases.userReportDownload">
         <methods>
-          <include name="postStartSprint"/>
+          <include name="getUserReportDownload"/>
         </methods>
-      </class> <!-- testcases.startSprint -->
+      </class> <!-- testcases.userReportDownload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
